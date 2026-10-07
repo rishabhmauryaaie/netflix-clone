@@ -1,2 +1,5 @@
+- create your own branch with your name
 - rem vs px
 - Style form -> input box and button
+- push all code to your branch 
+- create a merge request to master branch
