@@ -68,5 +68,48 @@ nav {
     padding: 20px 0px;
     font-weight: 500;
 }
+.email{
+  width: 450px;
+  height: 50px;
+  border: 2px solid rgb(43, 38, 38);
+  border-radius: 10px;
+  background-color: rgba(20, 20, 20, 0.685);
+  background-blend-mode:overlay;
+  z-index:1;
+  align-items:center;
+  position:relative;
+  top:-5px;
+  
+}
+
+.email::placeholder{
+  position:absolute;
+  left: 10px;
+  font-size: 17px;
+  font-family:  Arial, sans-serif;
+  font-weight: 550;
+  color:gray
+
+}
+.btn2{
+  width:200px;
+  height:55px;
+  border: 2px solid red;
+  border-radius:40px;
+  background-color:rgb(255, 0, 51);
+  color:white;
+  font-family: Arial, sans-serif;
+  font-size:25px;
+  font-weight:700;
+  text-align:center;
+  margin-left:5px
+
+}
+.btn2:hover{
+  background-color:crimson;
+}
+.input-div{
+  align-items:center;
+}
 
 
